@@ -26,5 +26,4 @@ end
 
 def valid_phone_number?(phone)
   phone.match(/[0-9].+[0-9].+[0-9]/)? true : false 
-
 end
